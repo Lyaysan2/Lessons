@@ -1,0 +1,45 @@
+.block{
+    margin-left: 40%;
+}
+
+.subheadings{
+    color: rgba(16, 15, 15, 0.76);
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.input{
+    font-size: 18px;
+    padding: 8px 30px;
+    margin-top: 7px;
+}
+
+.title{
+    font-size: 37px;
+    letter-spacing: 3px;
+    color: #744949;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.input-file{
+    margin-top: 7px;
+}
+
+.block input[type="submit"]{
+    background: none;
+    display: block;
+    margin: 20px 90px;
+    text-align: center;
+    border: 2px solid rgb(93, 73, 84);
+    padding: 14px 10px;
+    outline: none;
+    color: rgba(142, 93, 42, 0.85);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 20px;
+}

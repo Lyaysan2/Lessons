@@ -1,0 +1,42 @@
+body{
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.image img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.name{
+    font-size: 21px;
+    text-decoration: none;
+}
+.author{
+    font-size: 18px;
+    color: #616060;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.product{
+    width: 230px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    margin: 30px 20px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.info{
+    margin-top: 8px;
+}

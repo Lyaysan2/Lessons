@@ -1,0 +1,104 @@
+.all{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.profile{ /*заголовок + ава + информация*/
+}
+
+.title{ /*общий шаблон для заголовка*/
+    font-size: 39px;
+    font-weight: bold;
+    color: #714b11;
+    letter-spacing: 5px;
+}
+.prof{ /*заголовк профиля*/
+    margin-left: 26%;
+}
+.cart{ /*заголовок корзины*/
+    margin-left: 25%;
+    margin-top: -14px;
+}
+
+.info{ /*блок из аватара и информации*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+}
+
+.avatar{ /*ава*/
+    margin-top: 5px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    justify-content: center;
+    object-fit: cover;
+}
+.cart-img{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+.user-info{ /*блок информации*/
+    margin-left: 15px; /*отступ от авы*/
+}
+.text{ /*текст полей*/
+    color: #777;
+    font-family: "Roboto Thin", sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.attr{ /*текст аттрибута*/
+    font-size: 22px;
+    border: 0;
+    border-bottom: 2px solid #c66c22;
+    width: 100%;
+    padding: 7px 0;
+}
+
+
+
+.myCart{ /*заголовок + лист книг*/
+    margin-left: 16%;
+}
+
+.block{ /*вся таблица*/
+    background-color: rgba(246, 234, 222, 0.45);
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 400px;
+    overflow-y: scroll;
+    border-spacing: 58px 19px;
+}
+
+.bookName{
+    text-decoration: none;
+    font-size: 23px;
+    color: #744949;
+}
+
+.bookAuthor {
+    font-size: 20px;
+}
+
+.bookPrice{
+    font-size: 20px;
+}
+
+.item{ /*название колонок*/
+    font-size: 27px;
+    color: #551f0d;
+    font-family: "Roboto Thin", sans-serif;
+    letter-spacing: 5px;
+}
+
+
+
+
