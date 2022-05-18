@@ -1,0 +1,43 @@
+POST localhost:8080/signUp
+Content-Type: application/json
+
+{
+  "firstName": "Leisan",
+  "lastName": "Galeeva",
+  "email": "leisan@gmail.com",
+  "password": "leisan"
+}
+
+###
+
+POST localhost:8080/signIn
+Content-Type: application/json
+
+{
+  "email": "leisan@gmail.com",
+  "password": "leisan"
+}
+
+###
+
+POST localhost:8080/appointment/1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZSI6IlBBVElFTlQiLCJzdGF0ZSI6IkNPTkZJUk1FRCIsImVtYWlsIjoibGVpc2FuQGdtYWlsLmNvbSJ9.1bmapXxu6BV6ETh5rrYa8LEfzpBmCwBfVMw6VeRjqxc
+
+###
+
+POST localhost:8080/appointment/schedule
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZSI6IlBBVElFTlQiLCJzdGF0ZSI6IkNPTkZJUk1FRCIsImVtYWlsIjoibGVpc2FuQGdtYWlsLmNvbSJ9.1bmapXxu6BV6ETh5rrYa8LEfzpBmCwBfVMw6VeRjqxc
+
+{
+  "appointmentId": 1,
+  "timeStart": "0232013920",
+  "timeEnd": "0932042309"
+}
+
+###
+
+GET localhost:8080/appointment
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZSI6IlBBVElFTlQiLCJzdGF0ZSI6IkNPTkZJUk1FRCIsImVtYWlsIjoibGVpc2FuQGdtYWlsLmNvbSJ9.1bmapXxu6BV6ETh5rrYa8LEfzpBmCwBfVMw6VeRjqxc
+
+###
