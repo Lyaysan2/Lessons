@@ -1,4 +1,4 @@
-package ru.itis.model;
+package ru.itis.models;
 
 import lombok.*;
 

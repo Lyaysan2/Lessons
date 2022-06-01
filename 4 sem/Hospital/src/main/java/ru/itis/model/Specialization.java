@@ -1,4 +1,4 @@
-package ru.itis.model;
+package ru.itis.models;
 
 public enum Specialization {
     DRESSING_ROOM, THERAPY, GYNECOLOGY, UROLOGY, PROCTOLOGY, X_RAY_ROOM, CARDIOLOGY, ANALYZES, PEDIATRICS,

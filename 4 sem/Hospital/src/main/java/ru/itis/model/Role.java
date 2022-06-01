@@ -1,4 +1,4 @@
-package ru.itis.model;
+package ru.itis.models;
 
 public enum Role {
     PATIENT, DOCTOR, ADMIN
